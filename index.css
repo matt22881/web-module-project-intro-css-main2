@@ -1,0 +1,154 @@
+/*  Import Fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+/*  General Styling  */
+
+*{
+    box-sizing:border-box;
+    max-width: 100%;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    color:#4d4d4d;
+    background-color:#fbfffb;
+}
+a, button{
+    font-size:1.8rem;
+    font-family: 'Roboto Mono', monospace;
+    color:#2d4d4d;
+}
+h1, h2, h3{
+    font-family: 'Chelsea Market', cursive;
+    letter-spacing: 3px;
+    color: #4d4d4d
+}
+h1{
+    font-size:4vw;
+}
+a{
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+/*  Specific Styling  */
+/**  Nav Bar Styles */
+
+nav{
+    margin:3rem 0;
+}
+.home{
+    background:#a9a3dd;
+}
+.plan{
+    background: #ff764e;
+}
+.learn{
+    background: #5ed3eb;
+}
+.get{
+    background: #ffcd69;
+}
+.button{
+    display: inline-block;
+    border-radius: 10px;
+    height: 6rem;
+    width: 15%;
+    text-align: center;
+    margin-left: 13%;
+    transition: 1s;
+}
+.button:hover{
+    background: #DDB9A3;
+}
+.button2{
+    display: inline-block;
+    border-radius: 10px;
+    height: 6rem;
+    width: 10%;
+    text-align: center;
+    margin-left: 10%;
+    transition: 1s;
+}
+.button2:hover{
+    background: #DDB9A3;
+}
+
+nav a{
+    color: #fbfffb;
+}
+/**  Header Styles  */
+
+header{
+    width=100%;
+    text-align: center;
+}
+.header-image{
+    width: 30%;
+    display:inline-block;
+}
+.header-image img{
+    width:100%;
+    border-radius: 50%;
+}
+.header-text{
+    display:inline-block;
+    width:69%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.header-text p{
+    margin-top:5%;
+}
+.p1{
+    width: 75%;
+    margin-left:15%;
+}
+.p2{
+    width:40%;
+    margin-left:30%;
+}
+
+/**  Main Text Body Styles  */
+
+.main-section{
+    background: #DDB9A3;
+    color: #fbfffb;
+    margin: 3%;
+    padding: 0 2%;
+}
+
+/**  Middle Section  */
+
+.middle{
+    margin: 0 25%;
+}
+.middle img{
+    width: 50%;
+    margin: 0 25%;
+}
+.middle-container{
+    width: 50%;
+    margin: 0 25%;
+}
+.middle-container p{
+    width: 76%;
+    margin: 0 auto 20%;
+    text-align: center;
+}
+
+/**  Footer  */
+
+footer{
+    background: #F9E7DC
+}
+footer img{
+    width: 100%;
+    height: 50vh
+}
